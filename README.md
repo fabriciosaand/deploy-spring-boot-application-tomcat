@@ -10,7 +10,7 @@ A simple example of deploying a Spring Boot application on Apache Tomcat using D
   ```
   docker-compose up
   ```
-* The sample app should be accessible from [http:localhost:8080](http:localhost:8080). If you are using Docker machine it will be available from `http://{your docker machine's IP address}:8080`.
+* The sample app should be accessible from [http://localhost:8080/demo](http://localhost:8080/demo).
 
 # References
 * [https://hub.docker.com/_/tomcat/](https://hub.docker.com/_/tomcat/)

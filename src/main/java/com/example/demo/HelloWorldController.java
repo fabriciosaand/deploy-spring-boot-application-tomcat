@@ -3,14 +3,10 @@ package com.example.demo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Collection;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 @RestController
-public class TomcatController {
-    @GetMapping("/hello")
+public class HelloWorldController {
+    @GetMapping("/")
     public String sayHello() {
-        return "Hello";
+        return "Hello World";
     }
 }
